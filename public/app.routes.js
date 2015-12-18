@@ -30,6 +30,11 @@ angular.module('app.routes', ['ngRoute'])
    			controller  : 'movieCtrl',
     		controllerAs: 'theMovieCtrl' //this is
 		})
+		.when('/items', {
+			templateUrl : 'app/views/html/items.html',
+   			controller  : 'movieCtrl',
+    		controllerAs: 'theMovieCtrl' //this is
+		})
 
 		// show all users
 		.when('/users', {
